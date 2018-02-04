@@ -1,0 +1,41 @@
+{
+  "name": "smaraf.github.io",
+  "version": "1.0.0",
+  "description": "A place on the internet to express my technical self",
+  "private": true,
+  "hexo": {
+    "version": "3.5.0"
+  },
+  "scripts": {
+    "start-blog": "hexo server",
+    "new-post": "hexo new post",
+    "new-draft": "hexo new draft",
+    "new-page": "hexo new page",
+    "generate-blog": "hexo generate"
+  },
+  "dependencies": {
+    "hexo": "^3.2.0",
+    "hexo-deployer-git": "^0.3.1",
+    "hexo-generator-archive": "^0.1.4",
+    "hexo-generator-category": "^0.1.3",
+    "hexo-generator-index": "^0.2.0",
+    "hexo-generator-tag": "^0.2.0",
+    "hexo-renderer-ejs": "^0.3.1",
+    "hexo-renderer-marked": "^0.3.0",
+    "hexo-renderer-stylus": "^0.3.3",
+    "hexo-server": "^0.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smaraf/smaraf.github.io.git"
+  },
+  "keywords": [
+    "blog"
+  ],
+  "author": "Smaranda Fournier",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/smaraf/smaraf.github.io/issues"
+  },
+  "homepage": "https://github.com/smaraf/smaraf.github.io#readme"
+}
