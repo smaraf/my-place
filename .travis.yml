@@ -1,8 +1,11 @@
 language: node_js
+node_js:
+  - "8"
 before_script:
+  - npm i -g npm@version-number
   - npm install -g hexo-cli
 script:
-  - npm run build
+  npm run build
 deploy:
   local-dir: public
   provider: pages
