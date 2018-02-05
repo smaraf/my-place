@@ -1,8 +1,10 @@
 language: node_js
 before_script:
   - npm install -g hexo-cli
+script:
+  - npm run build
 deploy:
-  local-dir: ./public
+  local-dir: public
   provider: pages
   repo: smaraf/smaraf.github.io
   target-branch: master
