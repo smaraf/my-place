@@ -1,6 +1,9 @@
 language: node_js
+node_js:
+  - "8"
 before_script:
-  npm install -g hexo-cli
+  - npm i -g npm@4
+  - npm install -g hexo-cli
 script:
   npm run build
 deploy:
