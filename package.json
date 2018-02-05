@@ -8,9 +8,7 @@
   },
   "scripts": {
     "start-blog": "hexo server",
-    "new-post": "hexo new post",
-    "new-draft": "hexo new draft",
-    "new-page": "hexo new page",
+    "new": "hexo new",
     "build": "hexo generate",
     "deploy": "hexo clean && hexo deploy"
   },
