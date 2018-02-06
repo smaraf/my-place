@@ -17,7 +17,6 @@ a:link, a:visited {
 .content {
     display: flex;  
     flex-direction: column;
-    flex: 0 1 50%;
     justify-content: space-between;
     width: 750px;
 }
