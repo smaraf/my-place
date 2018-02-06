@@ -3,18 +3,24 @@ title: about-me
 date: 2018-02-04 13:39:42
 ---
 
-# Who am I?
+## Who am I?
 
-My name is Smara and I'm a [software engineer](https://www.linkedin.com/in/smaranda-fournier/). I like working with people and solving problems. I do my best to [share](/blog) what I learn or what gets me excited.
+My name is Smara, and I'm a [software engineer](/engineer).
 
-## What I've been doing lately
+I was born and raised in[ Cluj-Napoca, Romania](https://goo.gl/maps/JKeyzT68aW72).
 
-* I started volunteering with [Code for BTV](http://codeforbtv.org/) on the [Green Up Vermont](https://www.greenupvermont.org/) project.
-* I've been practicing my coding skills on [CodeFights](https://codefights.com/signup/wrzsSQnyvxaBfEoXa/main)
+I live in the [Burlington area in Vermont](https://goo.gl/maps/L61r6ce6h9E2).
 
-<!-- ## Thing I like -->
+I love food, traveling, programming, listening to books or [podcasts](/podcasts), organizing things.
+
+I like working with people and solving problems. I do my best to [share](/blog) what I learn or what gets me excited.
+
+I am on [LinkedIn](https://www.linkedin.com/in/smaranda-fournier/), [GitHub](https://github.com/smaraf).
+
+## What have I been doing lately?
+
+Checkout my [now](/now) page.
 
 ## Sources of inspiration
 
-* [Derek Siver's website](https://sivers.org/)
-* https://assortedsolutions.com/
+I was inspired [by my husband](https://assortedsolutions.com/) to create this page. The format and style were in part inspired by [Derek Sivers](https://sivers.org/).
