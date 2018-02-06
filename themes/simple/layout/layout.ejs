@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113449603-1"></script>
     <script>
@@ -11,19 +12,34 @@
         gtag('js', new Date());
         gtag('config', 'UA-113449603-1');
     </script>
-    <!-- include styles and GA stuff -->
+
+    <%- css('style.css')%>
 </head>
 
 <body>
-    <h1>
-        welcome to <%= config.title %>
-    </h1>
-
-    <%- body %>
-    <footer>
-        <span>© <%=(new Date().getFullYear())%> Smaranda Fournier</span></br>
-        <span>powered by <a href="https://pages.github.com/" target="_blank">GitHub Page</a></span></br>
-        <span>built with <a href="https://hexo.io/" target="_blank">Hexo.io</a></span>
-    </footer>
+    <div class="content">
+        <header>
+            <a href="<%= url_for('/') %>" title="Home">
+                <h1>
+                    welcome to
+                    <%= config.title %>
+                </h1>
+            </a>
+        </header>
+        <div class="page-content">
+            <%- body %>
+        </div>
+        <footer>
+            <span>©
+                <%=(new Date().getFullYear())%> Smaranda Fournier | </span>
+            <span>powered by
+                <a href="https://pages.github.com/" target="_blank">GitHub Page</a>
+                | </span>
+            <span>built with
+                <a href="https://hexo.io/" target="_blank">Hexo.io</a>
+            </span>
+        </footer>
+    </div>
 </body>
+
 </html>
