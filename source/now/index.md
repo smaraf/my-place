@@ -3,7 +3,7 @@ title: now
 date: 2018-02-06 12:51:03
 ---
 
-I live in the [Burlington, VT](https://goo.gl/maps/L61r6ce6h9E2) area and it's cold here.
+I recently moved to the [Burlington, VT](https://goo.gl/maps/L61r6ce6h9E2) area and it's cold here. I'm still enjoying my sabbatical.
 
 I practice my coding skills on CodeFights. Join me using my [referral link](https://codefights.com/signup/wrzsSQnyvxaBfEoXa/main). Be careful, it's addictive!
 
