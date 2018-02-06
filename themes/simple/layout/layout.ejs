@@ -12,8 +12,9 @@
         gtag('js', new Date());
         gtag('config', 'UA-113449603-1');
     </script>
-
     <%- css('style.css')%>
+    <%- favicon_tag('images/favicon.png') %>
+    <title><%=config.title %></title>
 </head>
 
 <body>
@@ -21,8 +22,7 @@
         <header>
             <a href="<%= url_for('/') %>" title="Home">
                 <h1>
-                    welcome to
-                    <%= config.title %>
+                    welcome to my place
                 </h1>
             </a>
         </header>
