@@ -1,7 +1,10 @@
 <%- page.content %>
 
     <% if(page.title === 'blog')
-    site.posts.forEach(function(post) { %>
+    var p = site.posts.data.slice(0);
+    p.sort(function(a, b) { return b.date.diff(a.date); });
+
+    p.forEach(function(post) { %>
         <div class="post">
             <a href="<%= url_for(post.path) %>">
                 <h3>
