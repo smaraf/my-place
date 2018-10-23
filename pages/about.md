@@ -1,6 +1,7 @@
 ---
-title: about-me
-date: 2018-02-04 13:39:42
+layout: page
+title: About
+permalink: /about/
 ---
 
 ## Who am I?
@@ -15,7 +16,21 @@ I love food, traveling, programming, listening to books or [podcasts](/podcasts)
 
 I like working with people and solving problems. I do my best to [share](/blog) what I learn or what gets me excited.
 
-I am on [LinkedIn](https://www.linkedin.com/in/smaranda-fournier/), [GitHub](https://github.com/smaraf).
+I like solving problems.
+
+I am fluent in C#, JavaScript, PowerShell, SQL, HTML, CSS.
+
+I have experience with all phases of the dev cycle, from analysis and planning to setting up a deployment pipeline and deploying to production.
+
+I like building teams.
+
+I believe in remote work.
+
+I think all software engineers should read:
+
+* Clean Coder by Robert C. Martin
+* The Phoenix Project by Gene Kim, George Spafford, and Kevin Behr
+
 
 ## What have I been doing lately?
 
